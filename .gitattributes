@@ -1,3 +1,4 @@
 *.key               filter=git-crypt diff=git-crypt
 .gitattributes !filter !diff
 *.env filter=git-crypt diff=git-crypt
+doc/** filter=git-crypt diff=git-crypt
